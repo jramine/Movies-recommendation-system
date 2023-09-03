@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('stopwords')
+nltk.download('punkt')
 
 st.markdown("<h1 style='text-align: center; color: black;'>Movies Recommendation system</h1>", unsafe_allow_html=True)
 
